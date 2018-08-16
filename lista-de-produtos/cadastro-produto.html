@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cadastro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="lista-produtos.js"></script>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <span>Nome: </span><input type="text">
+    <div>
+      <span>Tipo: </span> 
+      <form>
+          <input type="radio" name="gender" value="male"> Tipo 1<br>
+          <input type="radio" name="gender" value="female"> Tipo 2<br>
+          <input type="radio" name="gender" value="other"> Tipo 3
+      </form>
+    </div>
+    <button onclick="alert('Produto cadastrado')">Cadastrar</button> 
+
+    <button>
+      <a href="/produtos">
+          Cancelar
+      </a> 
+    </button>
+</body>
+</html>
