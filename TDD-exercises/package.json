@@ -1,0 +1,16 @@
+{
+  "name": "exerciciotdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "olaTeste.js",
+  "scripts": {
+    "test": "mocha ./testes/*.js"
+  },
+  "author": "marcos012",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
+  }
+}
